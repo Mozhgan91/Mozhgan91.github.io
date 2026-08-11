@@ -11,8 +11,6 @@
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="bitbug_favicon.ico"/>
-  <!--link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"-->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,24 +24,18 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css?v=3" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio - v1.1.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="d-flex flex-column">
+    <div class="header-inner d-flex align-items-center w-100">
 
       <div class="profile">
-        <img src="assets/img/profile_photo2.png" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile_photo2.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light text-center"><a href="index.html">Mozhgan Nasr</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://scholar.google.com/citations?user=jPpm73kAAAAJ&hl=en" target="_blank" class="google-scholar"><i class="bx bxl-google"></i></a>
@@ -60,9 +52,9 @@
           <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About Me</span></a></li>
           <li><a href="#news"><i class="bx bx-book-content"></i> <span>News</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>CV</span></a></li>
           <!--<li><a href="#research"><i class="bx bx-book-content"></i> Research</a></li>-->
-          <li><a href="#publications"><i class="bx bx-book-content"></i> Publications</a></li>
+          <li><a href="#research"><i class="bx bx-book-content"></i> Research</a></li>
           <li><a href="#services"><i class="bx bx-server"></i> Academic Services</a></li>
           <!-- <li><a href="#coursework"><i class="bx bx-server"></i> Coursework</a></li> -->
           
@@ -75,13 +67,22 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Mozhgan Nasr, Ph.D.</h1>
-      <p>Postdoc Fellow at UWaterloo, Visiting Postdoc at Stanford <br>
-      I'm <span class="typed" data-typed-items="a researcher, a computer scientist, an engineer!"></span></p>
+  <section id="hero">
+    <div class="hero-content container">
+
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Mozhgan Nasr, Ph.D.</h1>
+        <p class="hero-position">Visiting Postdoc at Stanford,<br> Postdoc Fellow at UWaterloo</p>
+        <p class="hero-typed">I'm <span class="typed" data-typed-items="a researcher, a computer scientist, an engineer!"></span></p>
+      </div>
+
+      <div class="hero-profile" data-aos="fade-left">
+        <img src="assets/img/profile_photo2.jpeg" alt="Mozhgan Nasr" class="hero-profile-img">
+      </div>
+
     </div>
-  </section><!-- End Hero -->
+  </section>
+<!-- End Hero -->
 
   <main id="main">
 
@@ -95,83 +96,69 @@
         </div>
 
         <div class="row">
-          <!-- <div class="col-lg-4">-->
-          <!--<div class="col-lg-4" data-aos="fade-right">-->
-            <!--<img src="assets/img/profile_photo.jpeg" class="img-fluid" alt="">
-          <!--</div>-->
-           <!--<div class="col-lg-8 pt-4 pt-lg-1 content">-->
-	  <div class="col-lg-12 pt-4 pt-lg-0 content">
+
+	      <div class="col-lg-12 pt-4 pt-lg-0 content" style="text-align: justify;">
           <!--<div class="col-lg-8 pt-4 pt-lg-1 content" data-aos="fade-left">-->
-            <h3>Postdoctoral Fellow, MLLM</h3>
-            <p> <font size="4px" color="black" class="text-justify">Hello and welcome! I am Mozhgan, a postdoctoral fellow at the University of Waterloo working with Prof. Krzysztof Czarnecki at the Waterloo Intelligent Systems Engineering Lab (<a href="https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/" target="_blank">WISE</a>). I am currently a Visiting Postdoctoral Scholar at Stanford working with Prof. Marco Pavone at Autonomous Systems Lab (<a href="https://stanfordasl.github.io/" target="_blank">ASL</a>).
-			My research spans multimodal learning, large language models, and autonomous systems, with a focus on trustworthy and efficient multimodal reasoning. I obtained my Ph.D. degree in Computer Science from University of Ottawa, working under the guidance of Prof. Azzedine Boukerche at the PARADISE Laboratory. 
-		    My dissertation focused on driving behavior analysis and prediction for safe autonomous vehicles. 
+            <!--<h3>Mozhgan Nasr</h3>-->
+            <p> Hello and welcome! I am currently a Visiting Postdoctoral Scholar at Stanford working with <a href="https://web.stanford.edu/~pavone/index.html" target="_blank">Prof. Marco Pavone</a> at Autonomous Systems Lab (<a href="https://stanfordasl.github.io/" target="_blank">ASL</a>). I am also a Postdoctoral fellow at the University of Waterloo working with <a href="https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne" target="_blank">Prof. Krzysztof Czarnecki</a> at the Waterloo Intelligent Systems Engineering Lab (<a href="https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/" target="_blank">WISE</a>). I obtained my Ph.D. degree in Computer Science from University of Ottawa, working under the guidance of <a href="https://www.uottawa.ca/faculty-engineering/school-electrical-engineering-computer-science/directory/azzedine-boukerche" target="_blank">Prof. Azzedine Boukerche</a> at the PARADISE Laboratory. My research spans multimodal learning, large language models, and autonomous systems, with a focus on trustworthy and efficient multimodal reasoning.
             </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Affiliation:</strong> University of Waterloo</li>
-                  <!--<li><i class="icofont-rounded-right"></i> <strong>Position:</strong> Research Assistant</li>-->
-                  <li><i class="icofont-rounded-right"></i> <strong>E-mail:</strong> mnasraza AT gmail DOT com</li>
-		  		  <!--<li><i class="icofont-rounded-right"></i> <strong>Address:</strong> <a href="https://mozhgan91.github.io/" target="_blank">Website</a></li>-->
-                  <!--<li><i class="icofont-rounded-right"></i> <strong>Office:</strong> 800 King Edward, SITE bulding </li>-->
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mozhgan-nasr-azadani-5962a18b/" target="_blank">Work Page </a></li>
-                  <!--<li><i class="icofont-rounded-right"></i> <strong>ResearchGate:</strong> <a href="https://www.researchgate.net/profile/Mozhgan-Azadani" target="_blank">Research Page</a></li>-->
-                  <li><i class="icofont-rounded-right"></i> <strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=jPpm73kAAAAJ&hl=en" target="_blank">Here</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+            <div class="row info-cards">
 
-        
-        <div class="row">
-          <p>&nbsp;</p>
-          <!--<div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">-->
-          <div class="col-lg-12 pt-4 pt-lg-0 content">
-          	<h3>Research Interest</h3>
-            <p><font size="4px" color="black">
-
-		    The ultimate goal of my research is to develop trustworthy, interactive, and scalable models that integrate computer vision and natural language to enhance perception, understanding, reasoning, and decision-making in autonomous systems, such as autonomous vehicles, robots.
-		    To achieve this, my work leverages interdisciplinary approaches, unifying techniques from multimodal large language models, computer vision, robotics, machine learning, explainable AI, and reinforcement learning to advance autonomous systems capabilities.
-		    My prior work on Driving Behavior Analysis includes developing end-to-end deep learning and inverse reinforcement learning-based models for multimodal, context-aware, and interaction-aware motion forecasting. Additionally, I have extracted efficient driver embeddings from 
-		    driving time series using scalable representation learning techniques and leveraged graph-based spatiotemporal convolutions to model interactive behavioral patterns among multiple agents within driving scenes.
-		    <!--My research interests center around the intersection of machine learning and computer vision for safe autonomous driving, with a focus on scene understanding and the potential of large language models (LLMs) and large vision-language models (LVLMs) for autonomous driving. -->
-             </p>
-            <!--<div class="row">
-              <div class="col-lg-4">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Graph Neural Network</strong></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Relational Reasoning</strong></li>
-                </ul>
+              <div class="col-md-4 mb-3">
+                  <div class="info-card">
+                      <i class="bx bx-building-house"></i>
+                      <span>University of Waterloo, Stanford</span>
+                  </div>
               </div>
-              <div class="col-lg-4">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Motion Prediction</strong></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Sequential Decision Making</strong> </li>
-                </ul>
+
+              <div class="col-md-4 mb-3">
+                  <div class="info-card">
+                      <i class="bx bx-envelope"></i>
+                      <span>mnasraza AT gmail DOT com</span>
+                  </div>
               </div>
-              <div class="col-lg-4">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Scene Understanding</strong> </li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Multi-Target Tracking</strong> </li>
-                </ul>
+
+              <div class="col-md-4 mb-3">
+                  <a class="info-card"
+                     href="https://scholar.google.com/citations?user=jPpm73kAAAAJ&hl=en"
+                     target="_blank">
+                      <i class="bx bxs-graduation"></i>
+                      <span>Google Scholar</span>
+                  </a>
               </div>
-            </div>-->
-          </div>
-        </div>
 
+              <div class="col-md-4 mb-3">
+                  <a class="info-card"
+                     href="https://www.linkedin.com/in/mozhgan-nasr-azadani-5962a18b/"
+                     target="_blank">
+                      <i class="bx bxl-linkedin-square"></i>
+                      <span>LinkedIn</span>
+                  </a>
+              </div>
 
+              <div class="col-md-4 mb-3">
+                  <a class="info-card"
+                     href="M_Nsr_CV.pdf"
+                     target="_blank">
+                      <i class="bx bx-file"></i>
+                      <span>Curriculum Vitae</span>
+                  </a>
+              </div>
 
-      </div>
+              <div class="col-md-4 mb-3">
+                  <a class="info-card"
+                     href="https://github.com/Mozhgan91"
+                     target="_blank">
+                      <i class="bx bxl-github"></i>
+                      <span>GitHub</span>
+                  </a>
+              </div>
+
+    </div>
 	</section>
 
    <!-- ======= News Section ======= -->
-    <section id="news" class="news">
+    <section id="news" class="news section-bg">
       <div class="container" >
 
         <div class="section-title">
@@ -221,356 +208,251 @@
       </div>
     </section><!-- End News Section -->
 
+       <!-- ======= Research Section ======= -->
+    <section id="research" class="research">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Research</span>
+          <h2>Research</h2>
+        </div>
+        
+        <div style="text-align: justify;"><p><font size="4px" color="black"><p>The rapid emergence of multimodal foundation models is fundamentally changing how intelligent systems perceive, reason, and interact with the world. Models that jointly understand vision, language, and action are becoming the core intelligence behind autonomous vehicles, robots, embodied agents, and scientific assistants. As these systems transition from research laboratories to real-world deployment, the central challenge is no longer simply improving benchmark performance—<strong>it is ensuring that they reason from visual evidence, understand uncertainty, interact naturally with humans, and make reliable decisions in complex and dynamic environments.</strong></p>
+
+         <p>Recent advances in large-scale multimodal learning have demonstrated remarkable capabilities in perception, reasoning, and instruction following. However, today's models remain <strong>limited by hallucinations, weak grounding, poor interpretability, and an inability to reliably connect perception with downstream decision-making</strong>. Addressing these limitations requires new algorithmic and representational foundations that integrate perception, reasoning, memory, and action while maintaining robustness and transparency.</p>
+
+         <p>The ultimate goal of my research is to <strong>develop trustworthy, interactive, and scalable multimodal AI systems</strong> that integrate vision, language, and action to <strong>enable grounded reasoning, predictive world modeling, and reliable decision-making</strong> in real-world environments. To this end, I develop methods spanning multimodal foundation models, computer vision, machine learning, robotics, reinforcement learning, and explainable AI to build autonomous systems that can perceive, understand, reason, and act reliably.</p>
+
+         <p>My earlier work focused on driving behavior analysis and intelligent transportation systems, where I developed deep learning and inverse reinforcement learning approaches for multimodal motion forecasting, scalable driver representation learning, and graph-based models for multi-agent interaction. These efforts established the foundations for my current research on <strong>grounded multimodal reasoning, trustworthy AI, world models, and embodied intelligence</strong>.</p>
+
+         <p>For the full list of my publications, visit my <a href="https://scholar.google.com/citations?user=jPpm73kAAAAJ&hl=en" target="_blank">Google scholar</a> page.</p>
+
+      </div>
+
+
+        <p></p><p></p> <br>
+
+         <div class="col-lg-12 pt-4 pt-lg-0 content"><h3>Selected Publication</h3></div>
+  
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/img/vistaqa.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">VISTAQA: Benchmarking Joint Visual Question Answering and Pixel-Level Evidence</h4>
+                <strong>M.N. Azadani</strong>, Yimu Wang, Yongpeng Zhu, Lihong Chen, Milan Ganai, Sean Sedwards, Marco Pavone, Krzysztof Czarnecki
+                <div class="paper-venue">Under review, 2026</div> 
+
+                <p class="paper-description" style="text-align: justify;">
+                    We present VISTAQA, the first benchmark to jointly evaluate whether multimodal foundation models not only produce the correct answer but also identify the visual evidence supporting their reasoning. Spanning six domains and diverse reasoning tasks, it reveals a substantial gap between answer accuracy and visual grounding, highlighting the need for more faithful and trustworthy multimodal AI.
+                </p>
+
+                <div class="btn-links">
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2605.20676" target="_blank">ArXiv</a>
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://vistaqa.github.io" target="_blank">Project Page</a>
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://huggingface.co/datasets/mozhina/VistaQA" target="_blank">Dataset</a>
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://github.com/VistaQA/VistaQA-Evaluation" target="_blank">Code</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/leo.png" alt="leo">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">Rethinking the Mixture of Vision Encoders Paradigm for Enhanced Visual Understanding in Multimodal LLMs</h4>
+                <strong>M.N. Azadani</strong>, James Riddell, Sean Sedwards, Krzysztof Czarnecki
+                <div class="paper-venue">TMLR 2026 (J2C certificate)</div>
+
+                <p class="paper-description" style="text-align: justify;">
+                    LEO introduces a novel MLLM that combines complementary vision encoders through an efficient dual-branch MoVE architecture. By integrating adaptive tiling with a post-adaptation fusion strategy, LEO significantly improves visual understanding across a wide range of vision-language benchmarks while remaining effective for specialized applications such as autonomous driving, demonstrating the benefits of leveraging diverse visual representations within a unified framework.
+                </p>
+
+                <div class="btn-links">
+                      <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2501.06986" target="_blank"> Arxiv</a>
+                      <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://github.com/Mozhgan91/LEO" target="_blank">Code</a>
+                      <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://openreview.net/forum?id=tgnTVmRybs" target="_blank">OpenReview</a>
+                     
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/direct.png" alt="direct">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?</h4>
+                Jadelynn Dao*, Milan Ganai*, Yasmina Abukhadra, Ajay Sridhar, <strong>M.N. Azadani</strong>, Katie Luo, Clark Barrett, Jiajun Wu, Chelsea Finn, Marco Pavone
+                <div class="paper-venue">Under review, 2026</div> 
+
+                <p class="paper-description" style="text-align: justify;">
+                  Naively scaling test-time compute is not always the answer!! More reasoning, larger models, and longer memory each may help in different situations, but often at a significant cost. DIRECT takes a step in that direction by dynamically selecting the cheapest planner that can still solve a given task, achieving strong performance while allocating compute only where it provides value.
+
+                </p>
+
+                <div class="btn-links">
+                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2606.12402" target="_blank"> Arxiv</a>
+                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://jadee-dao.github.io/direct/" target="_blank">Project Page</a>
+                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://direct-corl.github.io/video-demos-html/" target="_blank">Demos</a>
+                     
+                </div>
+            </div>
+        </div>
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/hawaii.png" alt="HAWAII">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">HAWAII: Hierarchical Visual Knowledge Transfer for Efficient Vision-Language Models</h4>
+                Yimu Wang, <strong>M.N. Azadani</strong>, Sean Sedwards, Krzysztof Czarnecki
+                <div class="paper-venue">NeurIPS 2025</div>
+
+                <p class="paper-description" style="text-align: justify;">
+                    HAWAII introduces an efficient framework for enhancing MLLMs by distilling knowledge from multiple visual experts into a single vision encoder. Through hierarchical visual knowledge transfer and adaptive teacher-specific routing, it significantly improves visual understanding while maintaining the efficiency required for real-world deployment.
+                </p>
+
+                <div class="btn-links">
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2506.19072" target="_blank"> Arxiv</a>
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://yimuwangcs.github.io/projects/neurips25_hawaii/index.html" target="_blank">Project Page</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/leo-mini.png" alt="leo-mini">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">LEO-MINI: An Efficient Multimodal Large Language Model using Conditional Token Reduction and Mixture of Multi-Modal Experts</h4>
+                Yimu Wang*, <strong>M.N. Azadani</strong>*, Sean Sedwards, Krzysztof Czarnecki
+                <div class="paper-venue">EMNLP 2025</div>
+
+                <p class="paper-description" style="text-align: justify;">
+                    LEO-MINI presents an efficient MLLM that reduces the computational cost of visual reasoning without sacrificing performance. By combining conditional visual token reduction with a mixture of multimodal experts, it significantly improves efficiency while achieving state-of-the-art results across diverse vision-language benchmarks, enabling scalable multimodal understanding for real-world applications.
+
+                </p>
+
+                <div class="btn-links">
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2504.04653" target="_blank"> Arxiv</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/htmf.png" alt="htmf">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">Hierarchical Transformers for Motion Forecasting based on Inverse Reinforcement Learning</h4>
+                <strong>M.N. Azadani</strong> and A. Boukerche
+                <div class="paper-venue">IEEE transaction on Vehicular Technology, 2024</div>
+
+                <p class="paper-description" style="text-align: justify;">
+                    HTMF combines hierarchical transformers and inverse reinforcement learning to forecast realistic, multimodal trajectories for autonomous driving. By learning from expert human behavior and incorporating scene context through occupancy maps, it generates human-like, scene-compliant motion predictions that outperform existing approaches across diverse traffic scenarios.
+                </p>
+
+                <div class="btn-links">
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10664048" target="_blank"> T-VT</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/capha.png" alt="capha">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">CAPHA: Context-Aware Path Prediction of Heterogeneous Agents</h4>
+                <strong>M.N. Azadani</strong> and A. Boukerche
+                <div class="paper-venue">IEEE transaction on Vehicular Technology, 2023</div>
+
+                <p class="paper-description" style="text-align: justify;">
+                  CAPHA presents a context-aware trajectory forecasting framework that leverages inverse reinforcement learning to predict realistic, multimodal future paths for vehicles, pedestrians, and cyclists. By integrating scene understanding with transformer-based motion prediction, it generates diverse and scene-compliant trajectories, achieving state-of-the-art performance on challenging autonomous driving benchmarks.
+
+                </p>
+
+                <div class="btn-links">
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10252012" target="_blank">T-VT</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row publication-item">
+            <div class="col-lg-4">
+                <div class="paper-media">
+                    <img src="assets/img/STAG.png" alt="STAG">
+                </div>
+            </div>
+
+            <div class="col-lg-8 pt-4 pt-lg-1 content">
+                <h4 class="paper-title">STAG: A novel interaction-aware path prediction method based on Spatio-Temporal Attention Graphs</h4>
+                <strong>M.N. Azadani</strong> and A. Boukerche
+                <div class="paper-venue">Adhoc Networks, 2023</div>
+
+                <p class="paper-description" style="text-align: justify;">
+                  STAG introduces a spatio-temporal graph framework for vehicle trajectory prediction that explicitly models asymmetric interactions among traffic participants. By combining graph neural networks, attention mechanisms, and directed interaction graphs, it captures complex multi-agent behaviors and achieves state-of-the-art prediction accuracy across highways, intersections, and roundabouts.
+
+                </p>
+
+                <div class="btn-links">
+                    <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/abs/pii/S1570870522001937" target="_blank"> Paper</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+      </div>
+  </section> 
+  <!-- ======= end of research Section ======= -->
 
   <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container" >
 
         <div class="section-title">
-          <span>Resume</span>
-          <h2>Resume</h2>
+          <span>CV</span>
+          <h2>CV</h2>
 		<!-- https://github.com/Mozhgan91/Mozhgan91.github.io/blob/main/ -->
-          <p>To view my full CV please click <a href="M_Nsr_CV.pdf" target="_blank">Here</a> (01/2024)</p>
+          <p>To view my full CV please click <a href="M_Nsr_CV.pdf" target="_blank">Here</a> (07/2026)</p>
         </div>
 
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- Publication Section -->
-
-    <section id="publications" class="about section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Publications</span>
-          <h2>Publications</h2>
-        </div>
-
-          <div class="row">
-
-          <!--<p>&nbsp;</p>-->
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-            <h3>To be published/Under Review</h3>
-            <div class="row">
-              <div class="col-lg-12">
-
-
-		        <strong>VISTAQA: Benchmarking Joint Visual Question Answering and Pixel-Level Evidence</strong>
-                <div> under review
-                </div>
-                <strong>M.N. Azadani</strong>, Yimu Wang, Yongpeng Zhu, Lihong Chen, Milan Ganai, Sean Sedwards, Marco Pavone, Krzysztof Czarnecki
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2605.20676" target="_blank"> Arxiv</a>
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://vistaqa.github.io" target="_blank">Project Page</a>
-                </div> 
-
-				<strong>DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?</strong>
-                <div> under review
-                </div>
-                Jadelynn Dao, Milan Ganai, Yasmina Abukhadra, Ajay Sridhar, <strong>M.N. Azadani</strong>, Katie Luo, Clark Barrett, Jiajun Wu, Chelsea Finn, Marco Pavone
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2606.12402" target="_blank"> Arxiv</a>
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://jadee-dao.github.io/direct/" target="_blank">Project Page</a>
-                </div> 
-
-				
-				<strong>Where Does the Answer Come From? Benchmarking View-Level Visual Evidence Identification in Multi-View MLLMs for Autonomous Driving</strong>
-                <div> under review
-                </div>
-                Yimu Wang, Yee Man Choi, Barry Zhang, <strong>M.N. Azadani</strong>, Sean Sedwards, Krzysztof Czarnecki
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2606.09644" target="_blank"> Arxiv</a>
-                </div>  
-    
-	
-		
-               
-              </div>
-            </div>
-          </div>
-
-			  	  <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2026</h3>
-            <div class="row">
-              <div class="col-lg-12">	
-		      
-		<strong>LEO: Boosting Mixture of Vision Encoders for Multimodal Large Language Models</strong>
-                <div> TMLR
-                </div>
-                <strong>M.N. Azadani</strong>, James Riddell, Sean Sedwards, Krzysztof Czarnecki
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2501.06986" target="_blank"> Arxiv</a>
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://github.com/Mozhgan91/LEO" target="_blank">Code</a>
-                </div>  
-		    
-
-	      </div>
-            </div>
-          </div>
-
-	  	  <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2025</h3>
-            <div class="row">
-              <div class="col-lg-12">	
-		      
-		<strong>HAWAII: Hierarchical Visual Knowledge Transfer for Efficient Vision-Language Models</strong>
-                <div> NeurIPS 2025
-                </div>
-                Yimu Wang, <strong>M.N. Azadani</strong>, Sean Sedwards, Krzysztof Czarnecki
-                <div class="btn-links">
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2506.19072" target="_blank"> Arxiv</a>
-                </div>  
-		      
-		<strong>LEO-MINI: An Efficient Multimodal Large Language Model using Conditional Token Reduction and Mixture of Multi-Modal Experts</strong>
-                <div> EMLNLP 2025
-                </div>
-                Yimu Wang*, <strong>M.N. Azadani</strong>*, Sean Sedwards, Krzysztof Czarnecki
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2504.04653" target="_blank"> Arxiv</a>
-                </div>   
-
-	      </div>
-            </div>
-          </div>
-
-	  <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2024</h3>
-            <div class="row">
-              <div class="col-lg-12">	
-		      
-		<strong>Hierarchical Transformers for Motion Forecasting based on Inverse Reinforcement Learning</strong>
-                <div>IEEE transaction on Vehicular Technology 
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10664048" target="_blank"> T-VT</a>
-                </div>  
-		
-		<strong> A Novel Transformer-Based Model for Motion Forecasting in Connected Automated Vehicles</strong>
-                <div> IEEE ICC 2024
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10622921" target="_blank"> ICC</a>
-                </div>
-
-	      </div>
-            </div>
-          </div>
-		  
-	  <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2023</h3>
-            <div class="row">
-              <div class="col-lg-12">
-
-		      
-		<strong>CAPHA: Context-Aware Path Prediction of Heterogeneous Agents</strong>
-                <div>IEEE transaction on Vehicular Technology
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10252012" target="_blank">T-VT</a>
-                </div>
-		      
-		<strong> GMP: Goal-based Multimodal Motion Prediction for Automated Vehicles</strong>
-                <div> IEEE Globecom 2023 
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10437373" target="_blank">Globecom</a>
-                </div>      
-                
-                <strong>A Context-Aware Path Forecasting Method for Connected Autonomous Vehicles</strong>
-                <div>2023 IEEE ICC 
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/10279653" target="_blank">ICC</a>
-                </div>
-		      
-		<strong>STAG: A novel interaction-aware path prediction method based on Spatio-Temporal Attention Graphs for connected automated vehicles</strong>
-                <div>Adhoc Networks
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/abs/pii/S1570870522001937" target="_blank"> Elsevier</a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-		  
-          <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2022</h3>
-            <div class="row">
-              <div class="col-lg-12">
-		      
-                
-                <strong>A Novel Multimodal Vehicle Path Prediction Method Based on Temporal Convolutional Networks</strong>
-                <div>IEEE Transactions on Intelligent Transportation Systems
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/document/9716897" target="_blank">T-ITS </a>
-                </div>
-		      
-		<strong>An Interaction-Aware Vehicle Behavior Prediction for Connected Automated Vehicles</strong>
-                <div>2022 IEEE ICC
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9839048" target="_blank">ICC</a>
-                </div>
-
-                <strong>Siamese Temporal Convolutional Networks for Driver Identification Using Driver Steering Behavior Analysis</strong>
-                <div>IEEE Transactions on Intelligent Transportation Systems
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/document/9716898" target="_blank">T-ITS</a>
-                </div>
-		      
-		<strong>An Internet-of-Vehicles Powered Defensive Driving Warning Approach for Traffic Safety </strong>
-                <div>2021 IEEE Global Communications Conference (GLOBECOM)
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9685139" target="_blank">Globecom</a>
-                </div>
-        
-            	<strong>DriverRep: Driver Identication through Driving Behavior Embeddings</strong>
-                <div>JPDC journal
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/abs/pii/S0743731522000168" target="_blank">ELSEVIER</a>
-                </div>
-		      
-		<strong>Convolutional and Recurrent Neural Networks for Driver Identification: An Empirical Study</strong>
-                <div>2022 IEEE ITAVT 
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9789929" target="_blank">ITAVT </a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-          
-          <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2021</h3>
-            <div class="row">
-              <div class="col-lg-12">
-                
-                <strong>Driving Behavior Analysis Guidelines for Intelligent Transportation Systems
-                </strong>
-                <div> IEEE Transactions on Intelligent Transportation Systems 
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-		            <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9430766" target="_blank">T-ITS</a>
-                </div>
-        
-            	<strong>Toward Driver Intention Prediction for Intelligent Vehicles: A Deep Learning Approach</strong>
-                <div> 2021 IEEE 46th Conference on Local Computer Networks (LCN)
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9524995" target="_blank">IEEE</a>
-                </div>
-
-              <strong>Driver Identification Using Vehicular Sensing Data: A Deep Learning Approach </strong>
-                <div> 2021 IEEE Wireless Communications and Networking Conference (WCNC)
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9417463" target="_blank">IEEE</a>
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://github.com/Mozhgan91/Driver-embedding" target="_blank">Code</a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>2020</h3>
-            <div class="row">
-              <div class="col-lg-12">
-                
-                <strong> Performance Evaluation of Driving Behavior Identification Models through CAN-BUS Data
-                </strong>
-                <div> 2020 IEEE Wireless Communications and Networking Conference (WCNC)
-                </div>
-                <strong>M.N. Azadani</strong> and A. Boukerche
-                <div class="btn-links">
-            	  <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/9120734" target="_blank">IEEE</a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<h3>Prior to 2019</h3>
-            <div class="row">
-              <div class="col-lg-12">
-                
-                <strong>Graph-based biomedical text summarization: An itemset mining and sentence clustering approach
-                </strong>
-                <div>Journal of Biomedical Informatics
-                </div>
-                <strong>M.N. Azadani</strong>, N. Ghadiri, and E. Davoodijam
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://www.sciencedirect.com/science/article/pii/S1532046418301114" target="_blank">ELSEVIER</a>
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://github.com/Mozhgan91/Graph-based-Biomedical-text-summarization" target="_blank">Code</a>
-                </div>
-		      
-		<strong>Evaluating Different Similarity Measures for Automatic Biomedical Text Summarization
-                </strong>
-                <div>International Conference on Intelligent Systems Design and Applications
-                </div>
-                <strong>M.N. Azadani</strong> and N. Ghadiri
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://link.springer.com/chapter/10.1007/978-3-319-76348-4_30" target="_blank">SpringerLink</a>
-		<a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://github.com/Mozhgan91/text-summarization-similarity-measures" target="_blank">Code</a>
-                </div>
-		     
-		<strong>Performance evaluation of SpatialHadoop for big web mapping data
-                </strong>
-                <div>2016 Second International Conference on Web Research (ICWR)
-                </div>
-		E.F. Maleki*, <strong>M.N. Azadani</strong>*, and N. Ghadiri
-                <div class="btn-links">
-                <a class="btn btn-outline-info my-1 mr-1 btn-sm" href="https://ieeexplore.ieee.org/abstract/document/7498447" target="_blank">IEEE</a>
-                </div>
-    
-              </div>
-            </div>
-          </div>
-
-
-          <p>&nbsp;</p>
-          <div class="col-lg-12 pt-4 pt-lg-0 content" >
-          	<p>
-              * co-first author<br>
-            </p>
-          </div>
-        </div>
-        </div>
-	</section> <!-- End Publication Section -->
 
       <!-- Academic services Section -->
-      <section id="services" class="services">
+      <section id="services" class="services section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -578,19 +460,34 @@
           <h2>Academic Services</h2>
         </div>
 
+        <div class="col-lg-12 pt-4 pt-lg-0 content"><h3>Area Chair</h3></div>
+        <div class="col-lg-12 pt-4 pt-lg-0 content">
+          <ul>
+             <li><i class="icofont-rounded"></i>NeurIPS 2026</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-12 pt-4 pt-lg-0 content"><h3>Workshop Organizing Committee Member</h3></div>
+        <div class="col-lg-12 pt-4 pt-lg-0 content">
+          <ul>
+            <li><i class="icofont-rounded"></i> I actively serve as a lead and co-organizer of workshops at premier ML, NLP, and computer vision conferences, including <a href="https://vlm4rwd.github.io" target="_blank" rel="noopener noreferrer">VLM4RWD</a>  at NeurIPS 2025-2026, <a href="https://eccv26wmeai.github.io" target="_blank" rel="noopener noreferrer"> WMEAI</a> at ECCV 2026, <a href="https://groundlm.github.io/grouplm_emnlp2026/" target="_blank" rel="noopener noreferrer">
+      GroundLM </a> at EMNLP 2026, </li>  </li>
+          </ul>
+        </div>
+
         <div class="col-lg-12 pt-4 pt-lg-0 content"><h3>Journal Reviewer</h3></div>
         <div class="col-lg-12 pt-4 pt-lg-0 content">
           <ul>
-	  <li><i class="icofont-rounded-right"></i>IEEE Transactions on Intelligent Transportation Systems (T-ITS), 2023 -- Present</li>
-	  <li><i class="icofont-rounded-right"></i>IEEE Transactions on Intelligent Vehicles (T-IV), 2023 -- Present</li>
-          <li><i class="icofont-rounded-right"></i>Transactions on Mobile Computing, 2022 -- Present</li>
-          <li><i class="icofont-rounded-right"></i>Transactions on Consumer Electronics, 2022 -- Present</li>
-    	  <li><i class="icofont-rounded-right"></i>Applied Artificial Intelligence, 2022 -- 2023</li>
-          <li><i class="icofont-rounded-right"></i>Open transportation journal, 2022 -- 2023</li>
-    	  <li><i class="icofont-rounded-right"></i>IEEE Access, 2022 -- Present</li>
-	  </ul>
+            <li><i class="icofont-rounded"></i> I am an active reviewer for leading journals, including TMLR, T-VT, T-ITS, T-IV, Pattern Recognition, Nature Communications, and others.</li>  </li>
+	        </ul>
         </div>
 
+        <div class="col-lg-12 pt-4 pt-lg-0 content"><h3>Confernece Reviewer</h3></div>
+        <div class="col-lg-12 pt-4 pt-lg-0 content">
+          <ul>
+            <li><i class="icofont-rounded"></i> I am an active reviewer for leading ML and CV conferences, including CVPR, ICCV, WACV, NeurIPS, ACL, and others.</li>  </li>
+          </ul>
+        </div>
 
       </div>
     </section><!-- End Services Section -->
@@ -604,14 +501,10 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Mozhgan Nasr (2024)<!--strong><span>chihochoi.me</span></strong-->
+        &copy; Mozhgan Nasr (2026)<!--strong><span>chihochoi.me</span></strong-->
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+
       </div>
     </div>
   </footer><!-- End  Footer -->
